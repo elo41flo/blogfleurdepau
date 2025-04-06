@@ -159,14 +159,14 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   /* Modification de la position du container sur petits écrans */
   #canvas_container_div {
-    top: 60%; /* Réduit la descente des plantes sur les petits écrans */
+    top: 50%; /* Réduit la descente des plantes sur les petits écrans */
   }
 }
 
 @media (max-width: 480px) {
   /* Pour les très petits écrans, on peut réduire encore plus */
   #canvas_container_div {
-    top: 50%; /* Position encore plus haute pour les écrans très petits */
+    top: 25%; /* Position encore plus haute pour les écrans très petits */
   }
 }
 
@@ -284,14 +284,11 @@ nav ul li a:hover {
 </head>
 <body>
     <header class="header">
-      <div id="canvas_container_div">
-        <canvas id="canvas" width="1000" height="1000"></canvas> 
-      </div>
         <div class="header-top">
-            <div class="auth-buttons">
-                <button onclick="window.location.href='inscription.html'">Inscription</button>
-                <button onclick="window.location.href='connexion.html'">Connexion</button>
-            </div>
+          <div class="tattoo-text" id="text-container"></div>
+          <div id="canvas_container_div">
+            <canvas id="canvas" width="1000" height="1000"></canvas> 
+          </div>
         </div>
         <nav>
             <ul>
@@ -301,6 +298,10 @@ nav ul li a:hover {
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <div class="auth-buttons">
+          <button onclick="window.location.href='inscription.html'">Inscription</button>
+          <button onclick="window.location.href='connexion.html'">Connexion</button>
+      </div>
     </header>
     <center class="center-images">
       <img src="img/photo de profil 2.jpg" alt="Photo 1">
