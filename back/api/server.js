@@ -2,7 +2,6 @@ const express = require('express');
 const firebaseAdmin = require('firebase-admin');
 const path = require('path');
 
-
 const app = express();
 const port = 3000;
 
@@ -28,11 +27,13 @@ app.post('/verifyToken', (req, res) => {
         });
 });
 
-app.use(express.static(path.join(__dirname, '../../front')));
+// Définir le dossier 'front' comme dossier statique
+app.use(express.static(path.join(__dirname, 'front')));
+
+// Route pour servir index.html
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../front/index.html'));
-  });
-  
+    res.sendFile(path.join(__dirname, 'front', 'index.html')); // Le fichier index.html est dans 'front'
+});
 
 app.listen(port, () => {
     console.log(`Le serveur écoute sur le port ${port}`);
