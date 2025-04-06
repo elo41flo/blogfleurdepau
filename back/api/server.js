@@ -27,12 +27,12 @@ app.post('/verifyToken', (req, res) => {
         });
 });
 
-// Définir le dossier 'front' comme dossier statique
-app.use(express.static(path.join(__dirname, 'front')));
+// Servez les fichiers statiques à partir du dossier 'front' à la racine
+app.use(express.static(path.join(__dirname, '../../front')));
 
 // Route pour servir index.html
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'front', 'index.html')); // Le fichier index.html est dans 'front'
+    res.sendFile(path.join(__dirname, '../../front', 'index.html')); // Le fichier index.html est dans 'front'
 });
 
 app.listen(port, () => {
