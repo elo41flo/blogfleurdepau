@@ -1,0 +1,27 @@
+{
+  "name": "blogfleurdepau",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elo41flo/blogfleurdepau.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elo41flo/blogfleurdepau/issues"
+  },
+  "homepage": "https://github.com/elo41flo/blogfleurdepau#readme",
+  "dependencies": {
+    "blogfleurdepau": "file:",
+    "express": "^5.1.0",
+    "firebase": "^11.6.0",
+    "firebase-admin": "^13.2.0"
+  }
+}
