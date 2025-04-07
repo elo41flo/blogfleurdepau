@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Initialise Firebase Admin SDK
-const serviceAccount = require('./serviceA.json'); // Télécharge la clé depuis la console Firebase
+const serviceAccount = require('../../serviceA.json'); // Si tu as un niveau de plus
 
 firebaseAdmin.initializeApp({
     credential: firebaseAdmin.credential.cert(serviceAccount),
@@ -27,17 +27,15 @@ app.post('/verifyToken', (req, res) => {
         });
 });
 
-// Servez les fichiers statiques à partir du dossier 'front' à la racine
-app.use(express.static(path.join(__dirname, '../../front')));
-
-// Servez les images à partir du dossier 'front/img' via le chemin '/img/'
-app.use('/img', express.static(path.join(__dirname, '../../front/img')));
+// Serve les fichiers statiques depuis le dossier 'front' à la racine
+app.use(express.static(path.join(__dirname, '../../front')));  // Chemin vers 'front'
 
 // Route pour servir index.html
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../front', 'index.html')); // Le fichier index.html est dans 'front'
+    res.sendFile(path.join(__dirname, '../../front', 'index.html')); // Serve 'index.html' depuis 'front'
 });
 
+// Démarre le serveur sur le port 3000
 app.listen(port, () => {
     console.log(`Le serveur écoute sur le port ${port}`);
 });

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "blog-fleur-de-pau",
+  "private_key_id": "0a4f6cb8ca9a4bd406434463cadb4334c57494d9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDI6qbPrfKxn9yK\nzz+MndsPJnzqlTrWPPaM1vp1AytrWOk/ABisVLBkai9AJzpCO/fRJYPOo1Zv24L7\nRuyIbggUy+0NQkzsyDyt9TVq5JsXYhjaPOHqN6fv3FdDzu2RCsbVttWxxPCyVt4L\nPAILx2g4ARKw6JJ/Pj9rvaGZt5UkAO9BP3go5pI2jnkkR/38SVx8jJeXEvW5RY7D\n9bvCb/SqFuctKtuCsaEG3vG6Gl+UvJhe3nJc+Ah7FXBCbHws4s0YkNnB3VEJqI8A\n+A8ApwcrN05pHc9cviGvMX800TFCUPiwHIOEBCTMd+haxB/RgwpV5gmzwqp++AeL\nfgYV39u3AgMBAAECggEAO2OBI2pbjr2eRzmzozEWC4ho7D5oQeOLTV5OckAZmYWS\njJjOskHmUghBJ0lxIxruyde4+l+1sSLFuNjiGgHMSbltvLmYW3Vk2lbdD1e7sFHC\n3t+YN89zyKbs9JI6DuGMnKeKyx1XuJ+Myu1V/X1YBRXsHHbittIDlSlclz94ykcm\nS2u8tht1f/Spfo+0rf9Pd00JgXPA9FXA4MDFJIC2jJvzly6DB91GrjsNac0RZiN6\nrSESl3E/KFHb/5FvZ4a4gPrkROEfG+LSaEXbOdD0ekqvk5YFj7eBNag6Cc5J+wQh\nAVTeACR8cktd/nnlpP6MGDRA89sb+m6X3VL2C4RooQKBgQDqaLamLT/Pw7Qyx3SG\n6l71msk7m6XrxuhxWmDR2A5TwdTvZRkH5laceVHaPicmXw7IBBVeW0R3BEXJW4mT\nmy4tCvxJE7RxlvzDYA9RriBRJPW9wfBILPaOAP9k4pp8jJSM0vgv7NN9MxbOBFn+\nRZMcWtgeY6Ebr+iWG/j/GbivAwKBgQDbbDKoMwvVKzL0VZ8JyUlRmQV567W9/GyW\nN4Buk6qxfN3LwsGA2pFFax3TmdYAqQHnLpkVzA0GhyGiICrdPpT2N+3UL2+0gzDQ\nL7uamQnufRiS8ueh25zamlq0ArVO1PLCzITpAwtGZ/U2VDImosUm0kt8TlVBxZB/\nExVXxly4PQKBgQCqvUsND7iDJRGESzPdcalpTC13dZANhPyaVDJhpvYInA71sLXi\nwywjHVs5lDv//w1NM2w9Jk1gQ4RxfnNfSJEBzhalQ+0TL988kCOYYzS25iz44uKa\nL+YG2UMtwMC2J8+sI58TiXUipKvfs9u5EgRtit4QhJE9EYxgik97wMh88QKBgQCM\nosOxJM6fuYl2K2684gOZRh/JbjdVZvXeLgKmXQUZr3OlRtWple1odehvGHmegLSU\njTxXSSrMFU6MUFvI5HSrf1tzFVhedXuS5BU1WIOSFSHsBb5K8qyNPEOIfvfgaAKU\nsms5wda3MKhtQvfF5avBXyY8rSRd/JfJqtySHrSM7QKBgHvpV/ABE6AO+Q7RDXzh\nCOTnHzLuO8XB4NXRXaa5dpq/G9sTjsgTUW+4JcKKCumF3k7l5AZMZi7PL2TwFMjN\nYIg8ANxDPbFi5k73ru8efTXkhq5qoUxEpOJX1K28iUO2RQ/dbWZ1iVwAHHInCi6H\nA9s6iOmlwhf4MfC4m1zpup1t\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@blog-fleur-de-pau.iam.gserviceaccount.com",
+  "client_id": "104611525726479456233",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40blog-fleur-de-pau.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
