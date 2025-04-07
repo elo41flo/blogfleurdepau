@@ -27,9 +27,6 @@ app.post('/verifyToken', (req, res) => {
         });
 });
 
-// Serve les fichiers statiques depuis le dossier 'front' à la racine
-app.use(express.static(path.join(__dirname, '../../front')));  // Chemin vers 'front'
-
 // Route pour servir index.html
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../../front', 'index.html')); // Serve 'index.html' depuis 'front'
