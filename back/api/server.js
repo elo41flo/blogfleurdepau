@@ -30,6 +30,9 @@ app.post('/verifyToken', (req, res) => {
 // Servez les fichiers statiques à partir du dossier 'front' à la racine
 app.use(express.static(path.join(__dirname, '../../front')));
 
+// Pour servir les images, configure le dossier 'ilmg/images' comme un répertoire statique
+app.use('/img/', express.static(path.join(__dirname, 'front/img/images')));
+
 // Route pour servir index.html
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../../front', 'index.html')); // Le fichier index.html est dans 'front'
