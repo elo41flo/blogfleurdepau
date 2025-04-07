@@ -31,7 +31,7 @@ app.post('/verifyToken', (req, res) => {
 app.use(express.static(path.join(__dirname, '../../front')));
 
 // Pour servir les images, configure le dossier 'ilmg/images' comme un répertoire statique
-app.use('/img/', express.static(path.join(__dirname, 'front/img/images')));
+app.use('/img/', express.static(path.join(__dirname, 'front/img')));
 
 // Route pour servir index.html
 app.get('/', (req, res) => {
