@@ -145,8 +145,9 @@ nav ul li a:hover {
   position: absolute;
   top: 80%;  /* Position par défaut */
   left: 50%;
-  transform: translate(-50%,-50%) rotate(180deg);
-  transition: top 0.3s ease-in-out; /* Smooth transition pour le changement sur petits écrans */
+  transform: translate(-50%, -50%) rotate(180deg);
+  transition: top 0.3s ease-in-out; /* Smooth transition */
+  z-index: 0; /* Le canvas est en dessous */
 }
 
 #canvas {
@@ -157,17 +158,24 @@ nav ul li a:hover {
 
 /* Responsive Design pour petits écrans */
 @media (max-width: 768px) {
-  /* Modification de la position du container sur petits écrans */
   #canvas_container_div {
-    top: 50%; /* Réduit la descente des plantes sur les petits écrans */
+    top: 50%;
   }
 }
 
 @media (max-width: 480px) {
-  /* Pour les très petits écrans, on peut réduire encore plus */
   #canvas_container_div {
-    top: 25%; /* Position encore plus haute pour les écrans très petits */
+    top: 25%;
   }
+}
+
+/* Assure que le header et les éléments dessus soient au-dessus du canvas */
+header,
+.tattoo-text,
+.auth-buttons,
+nav {
+  position: relative;
+  z-index: 10; /* Plus haut que canvas */
 }
 
 
